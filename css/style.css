@@ -1,0 +1,481 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue,Helvetica,sans-serif;
+}
+
+.logo{
+  width: 94px;
+  height: 32px;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+.police{
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#bar{
+  font-size: 15px;
+}
+nav ul{
+  color: black;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+nav li{
+  padding: 5px;
+  font-family: Helvetica Neue,Helvetica,sans-serif;
+  color: purple;
+  font-size: 15px;
+}
+nav li:hover{
+  color: black;
+  text-decoration: none;
+}
+nav{
+  position: relative;
+}
+#search{
+  position: relative;
+  width: 12px;
+  right: 200px;
+  top: 1px;
+}
+input{
+  padding-left: 15px;
+  width: 200px;
+  height: 30px;
+}
+form{
+  margin: 0;
+}
+header{
+  background-image: url(../img/back.jpg);
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenaire-info{
+  background-color: rgba(29, 29, 32, 0.8);
+  width: 60vw;
+  height: 349px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.player{
+  width: 620;
+  height: 349px;
+}
+.info-joueur{
+  width: 320px;
+  height: 349px;
+  padding-left: 12px;
+}
+.avatar img{
+  width: 40px;
+  height: 40px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.header{
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.info h3{
+  margin: 12px 0px 2px 0;
+}
+.info p{
+  margin: 0;
+  font-size: 12px;
+}
+.content h1{
+  color: white;
+}
+.content p{
+  color: grey;
+}
+.lienheader{
+  text-decoration: none;
+}
+.list{
+  width: 60vw;
+}
+.list ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+}
+.list ul li{
+  list-style: none;
+}
+.list ul li img{
+  border: 1px grey solid;
+  outline: 1px solid black;
+}
+.respon{
+  display: none;
+}
+.list_respon{
+  display: none;
+}
+/*========================================*/
+/*========================================*/
+.feature{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.textresponsive{
+  display: none;
+}
+.feature h1{
+  color: grey;
+  font-family: inherit;
+  margin-right: 550px;
+}
+.feature h1 span{
+  color: black;
+}
+.featurecontent{
+  flex-wrap: wrap;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.feature .item{
+  margin-bottom: 40px;
+}
+.item p{
+  margin-top: 9px;
+}
+.subtitle{
+  margin-top: 50px;
+}
+.lienjeux{
+  text-decoration: none;
+  color: purple;
+  margin-left: 750px;
+}
+.lienjeux:hover{
+  text-decoration: underline;
+}
+/*=======================================*/
+/*=======================================*/
+.imgboutton{
+  background-image: url(../img/splash.png);
+  background-size: cover;
+  width: 100%;
+  height: 215px;
+  border-top: grey 1px solid;
+  border-bottom: grey 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn{
+  text-decoration: none;
+  color: white;
+  background-color: purple;
+  padding: 7px;
+  margin: 5px;
+  font-size: 15px;
+}
+.imgboutton h1{
+  color: grey;
+}
+/*=====================================*/
+/*=====================================*/
+.feature2{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature2 h1{
+  color: grey;
+  font-family: inherit;
+  margin-right: 336px;
+}
+.feature2 h1 span{
+  color: black;
+}
+.featurecontent2{
+  flex-wrap: wrap;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.feature .item2{
+  margin-bottom: 40px;
+}
+.item2 img{
+  width: 300px;
+  height: 180px;
+}
+.item2 p{
+  margin-top: 9px;
+}
+.subtitle2{
+  margin-top: 60px;
+}
+.lienjeux2{
+  text-decoration: none;
+  color: purple;
+  margin-left: 750px;
+  margin-top: 20px;
+}
+.lienjeux2:hover{
+  text-decoration: underline;
+}
+.reverse{
+  display: none;
+}
+
+/*===================================*/
+/*===================================*/
+footer{
+  height: 190px;
+  background-color: #19171C;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer ul{
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.footerimg{
+  width: 30px;
+  height: 30px;
+}
+
+.lf li{
+  display: flex;
+  list-style: none;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+}
+.lf{
+  color: black;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+.blc{
+  margin-left: 40px;
+}
+.copy li{
+  list-style: none;
+  color: grey;
+  font-size: 10px;
+}
+.lf li a{
+  text-decoration: none;
+  color: white;
+}
+.lf li a:hover{
+  text-decoration: underline;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+footer{
+  display: none;
+}
+.footerdiv{
+  display: none;
+}
+.lf{
+  display: none;
+}
+@media screen and (max-width: 780px){
+  .form{
+    display: none;
+  }
+  aside{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+  .content{
+    display: none;
+  }
+  .list{
+    display: none;
+  }
+  .feature{
+    display: none;
+  }
+  .recherche{
+    display: none;
+  }
+  .police ul {
+    display: none;
+  }
+  .imgboutton{
+    display: none;
+  }
+  .feature2{
+    display: none;
+  }
+  footer{
+    display: flex;
+  }
+  .logo{
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .hamburger {
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    margin-right: 0.3em;
+    border-top: 0.2em solid black;
+    border-bottom: 0.2em solid black;
+  }
+  .info-joueur{
+    display: none;
+  }
+  .hamburger:before {
+    content: "";
+    position: absolute;
+    top: 0.3em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid black;
+  }
+  .player{
+    display: none;
+  }
+  .contenaire-info{
+    display: none;
+  }
+  .reverse{
+    display: flex;
+  }
+  .reverse img{
+    width: 250px;
+    height: 250px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+  }
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .reverse{
+    display: none;
+  }
+  .contenaire-info{
+    display: flex;
+    width: 100%;
+  }
+  .player{
+    display: flex;
+    width: 100%;
+    height: 450px;
+  }
+  .contenaire-info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .respon {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    background-color: #261F23;
+  }
+  .img_respon_1{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px
+  }
+  .respon_info{
+    padding-left: 10px;
+  }
+  .respon_info h1{
+    text-shadow: 0px 0px 9px #777;
+  }
+  .list_respon{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #261F23;
+  }
+  .list_respon ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.list_respon ul li{
+  list-style: none;
+}
+.list_respon ul li img{
+  border: 1px grey solid;
+  outline: 1px solid black;
+}
+footer{
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+footer .blc1{
+  display: none;
+}
+footer .blc{
+  display: none;
+}
+footer .disparait{
+  display: none;
+}
+ul .lf{
+  display: none;
+}
+.footerdiv{
+  display: flex;
+}
+
+nav{
+  height: 40px;
+}
+.copyright{
+  margin-top: 7px;
+}
+}
